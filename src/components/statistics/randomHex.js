@@ -1,5 +1,5 @@
 export const getRandomHexColor = () => {
-  return `#${Math.floor(Math.random() * 1677795841215)
+  return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, 0)}`;
 };
